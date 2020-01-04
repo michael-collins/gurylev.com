@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чумной доктор</title>
+    <meta name="description" content="Написал проектик на 8 ноде без бабеля, но с классами, асинками, стрелками, es-модулями, utils.promisify и puppeteer 🏎">
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400..700|Source+Sans+Pro:400..700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Андрей Гурылев @ fogrew">
+  </head>
+  <body>
+  <script>
+  const theme = localStorage.getItem('theme')
+  if(theme) document.body.dataset.theme = theme
+  </script>
+    <header class="header">
+      <div class="container header__wrap">
+        <div class="header__nav">
+          <ul class="nav"><li class="nav__item"><a href="/" class="nav__link">Андрей Гурылев</a></li>
+<li class="nav__item"><a href="/posts/" class="nav__link">Мысли</a></li></ul>
+        </div>
+        <div class="header__tools">
+          <button aria-pressed="false" class="theme-switcher">
+            <span aria-hidden="true" class="theme-switcher__overlay">off</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="tmpl-post">
+      <div class="container">
+        <h1 class="p-name">Чумной доктор</h1>
+
+<div class="e-content">
+<p>В рамках моего конкурса #evening_task написал небольшой проектик на 8 ноде без бабеля, но с классами, асинками, стрелками, es-модулями, utils.promisify и puppeteer. А оно бац - и работает! Впервые за несколько лет почувствовал себя на пике современности по коду.</p>
+<p>Код: <a href="https://nights.site/Nights/plague">https://nights.site/Nights/plague</a><br>
+Демо: <a href="http://plague.jkoff.ru/">http://plague.jkoff.ru/</a> (уже выключено)</p>
+<p>Суть проекта в отслеживании честности голосования на сайте губернатора Ярославля и возможности потом продемонстрировать не только полученные с сайта данные, но и их скриншоты («простой человек» глазам больше верит).</p>
+
+</div>
+
+<footer>
+  <span class="u-author h-card">
+    <img class="u-photo avatar" src="/img/avatar.jpg">
+    <a class="u-author h-card" href="https://gurylev.com">Андрей</a>
+  </span>
+  написал <time class="post-date dt-published" datetime="Mon Nov 27 2017 00:00:00 GMT+0000 (UTC)">27 Nov 2017</time>
+  <p><a href="/posts/">← Ещё мысли</a></p>
+</footer>
+
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2014…, cайт Андрея Гурылева. <a href="https://github.com/fogrew/gurylev.com">Репозиторий сайта</a>. Написать можно на почту: <a href="mailto:andrew@gurylev.com">andrew@gurylev.com</a></p>
+      </div>
+    </footer>
+
+    <!-- Current page: /posts/2017.11.27-plague/ -->
+    <script async defer type="module" src="/js/index.mjs"></script>
+  </body>
+</html>
