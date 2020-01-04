@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Андрей Гурылев @ fogrew</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+	<subtitle>Веб-разработчик и тимлид в Wrike, организатор PiterJS.</subtitle>
 	<link href="https:///feed/feed.xml" rel="self"/>
 	<link href="https://gurylev.com/"/>
 	<updated>2019-12-22T00:00:00-00:00</updated>
